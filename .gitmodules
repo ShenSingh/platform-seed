@@ -1,0 +1,9 @@
+[submodule "platform/edusubmit-config-server"]
+	path = platform/edusubmit-config-server
+	url = https://github.com/ShenSingh/edusubmit-config-server.git
+[submodule "platform/edusubmit-discovery-server"]
+	path = platform/edusubmit-discovery-server
+	url = https://github.com/ShenSingh/edusubmit-discovery-server.git
+[submodule "platform/edusubmit-api-gateway"]
+	path = platform/edusubmit-api-gateway
+	url = https://github.com/ShenSingh/edusubmit-api-gateway.git
