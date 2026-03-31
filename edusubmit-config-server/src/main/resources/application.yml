@@ -1,0 +1,23 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: edusubmit-config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        url: https://github.com/ShenSingh/eduSubmit-config.git
+        native:
+          search-locations: file:./config
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
