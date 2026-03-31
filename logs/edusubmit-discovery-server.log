@@ -1,0 +1,75 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.12)
+
+2026-04-01T01:00:50.705+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2026-04-01T01:00:50.722+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.c.c.ConfigServicePropertySourceLocator : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/edusubmit-discovery-server/default": Connection refused. Will be trying the next url if available
+2026-04-01T01:00:50.723+05:30  WARN 29671 --- [edusubmit-discovery-server] [           main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/edusubmit-discovery-server/default": Connection refused
+2026-04-01T01:00:50.730+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] .e.d.EdusubmitDiscoveryServerApplication : No active profile set, falling back to 1 default profile: "default"
+2026-04-01T01:00:50.755+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-04-01T01:00:50.755+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/edusubmit-discovery-server/default": Connection refused. Will be trying the next url if available
+2026-04-01T01:00:50.755+05:30  WARN 29671 --- [edusubmit-discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@6b3871d6 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/edusubmit-discovery-server/default": Connection refused
+2026-04-01T01:00:50.755+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-04-01T01:00:50.755+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/edusubmit-discovery-server/default": Connection refused. Will be trying the next url if available
+2026-04-01T01:00:50.755+05:30  WARN 29671 --- [edusubmit-discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@2eb79cbe uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/edusubmit-discovery-server/default": Connection refused
+2026-04-01T01:00:50.755+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-04-01T01:00:50.755+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/edusubmit-discovery-server/default": Connection refused. Will be trying the next url if available
+2026-04-01T01:00:50.755+05:30  WARN 29671 --- [edusubmit-discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@2ca6546f uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/edusubmit-discovery-server/default": Connection refused
+2026-04-01T01:00:52.638+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e87db807-b6ef-38d2-9489-ae587e7369cb
+2026-04-01T01:00:53.354+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2026-04-01T01:00:53.425+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-01T01:00:53.425+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-04-01T01:00:53.501+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-01T01:00:53.504+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2747 ms
+2026-04-01T01:00:56.115+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-04-01T01:00:56.117+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider (jar:nested:/Users/gayashanashinshana/Documents/edusubmit/platform-seed/edusubmit-discovery-server/target/edusubmit-discovery-server-0.0.1-SNAPSHOT.jar/!BOOT-INF/lib/xstream-1.4.20.jar!/)
+WARNING: Please consider reporting this to the maintainers of class com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+2026-04-01T01:00:56.474+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-04-01T01:00:56.474+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-04-01T01:00:56.713+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-04-01T01:00:57.740+05:30  WARN 29671 --- [edusubmit-discovery-server] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-04-01T01:00:57.775+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-04-01T01:00:57.802+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-04-01T01:00:57.803+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-04-01T01:00:57.806+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1774985457805 with initial instances count: 0
+2026-04-01T01:00:57.871+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2026-04-01T01:00:57.873+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2026-04-01T01:00:58.092+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-04-01T01:00:58.092+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-04-01T01:00:58.092+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-04-01T01:00:58.093+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-04-01T01:00:58.170+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2026-04-01T01:00:58.188+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2026-04-01T01:00:58.188+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2026-04-01T01:00:58.209+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-04-01T01:00:58.303+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EDUSUBMIT-DISCOVERY-SERVER with eureka with status UP
+2026-04-01T01:00:58.324+05:30  INFO 29671 --- [edusubmit-discovery-server] [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2026-04-01T01:00:58.325+05:30  INFO 29671 --- [edusubmit-discovery-server] [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2026-04-01T01:00:58.325+05:30  INFO 29671 --- [edusubmit-discovery-server] [      Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2026-04-01T01:00:58.327+05:30  INFO 29671 --- [edusubmit-discovery-server] [      Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2026-04-01T01:00:58.327+05:30  INFO 29671 --- [edusubmit-discovery-server] [      Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2026-04-01T01:00:58.330+05:30  INFO 29671 --- [edusubmit-discovery-server] [      Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2026-04-01T01:00:58.334+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
+2026-04-01T01:00:58.335+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2026-04-01T01:00:58.368+05:30  INFO 29671 --- [edusubmit-discovery-server] [           main] .e.d.EdusubmitDiscoveryServerApplication : Started EdusubmitDiscoveryServerApplication in 11.626 seconds (process running for 13.198)
+2026-04-01T01:00:59.903+05:30  INFO 29671 --- [edusubmit-discovery-server] [nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-01T01:00:59.903+05:30  INFO 29671 --- [edusubmit-discovery-server] [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-01T01:00:59.904+05:30  INFO 29671 --- [edusubmit-discovery-server] [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-04-01T01:01:00.112+05:30  INFO 29671 --- [edusubmit-discovery-server] [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/172.20.10.5:api-gateway:8080 with status UP (replication=false)
+2026-04-01T01:01:00.719+05:30  INFO 29671 --- [edusubmit-discovery-server] [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/172.20.10.5:api-gateway:8080 with status UP (replication=true)
+2026-04-01T01:01:58.330+05:30  INFO 29671 --- [edusubmit-discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-04-01T01:02:58.336+05:30  INFO 29671 --- [edusubmit-discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-04-01T01:03:58.333+05:30  INFO 29671 --- [edusubmit-discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-04-01T01:04:58.337+05:30  INFO 29671 --- [edusubmit-discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-04-01T01:05:58.339+05:30  INFO 29671 --- [edusubmit-discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2026-04-01T01:06:58.341+05:30  INFO 29671 --- [edusubmit-discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-04-01T01:07:58.343+05:30  INFO 29671 --- [edusubmit-discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
