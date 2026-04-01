@@ -22,3 +22,29 @@
 2026-04-01T01:00:56.362+05:30  INFO 29670 --- [edusubmit-config-server] [nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-04-01T01:00:56.363+05:30  INFO 29670 --- [edusubmit-config-server] [nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2026-04-01T01:00:56.365+05:30  INFO 29670 --- [edusubmit-config-server] [nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-04-01T04:58:37.569+05:30  INFO 29670 --- [edusubmit-config-server] [ionShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-01T04:58:37.651+05:30  INFO 29670 --- [edusubmit-config-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.12)
+
+2026-04-01T05:05:33.811+05:30  INFO 45164 --- [edusubmit-config-server] [           main] c.e.c.EdusubmitConfigServerApplication   : Starting EdusubmitConfigServerApplication v0.0.1-SNAPSHOT using Java 25 with PID 45164 (/Users/gayashanashinshana/Documents/edusubmit/platform-seed/edusubmit-config-server/target/edusubmit-config-server-0.0.1-SNAPSHOT.jar started by gayashanashinshana in /Users/gayashanashinshana/Documents/edusubmit/platform-seed)
+2026-04-01T05:05:33.821+05:30  INFO 45164 --- [edusubmit-config-server] [           main] c.e.c.EdusubmitConfigServerApplication   : The following 1 profile is active: "native"
+2026-04-01T05:05:40.422+05:30  INFO 45164 --- [edusubmit-config-server] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=26a8a547-a35e-3193-8ddf-d9eb3b70c571
+2026-04-01T05:05:41.820+05:30  INFO 45164 --- [edusubmit-config-server] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2026-04-01T05:05:41.873+05:30  INFO 45164 --- [edusubmit-config-server] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-01T05:05:41.875+05:30  INFO 45164 --- [edusubmit-config-server] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-04-01T05:05:42.027+05:30  INFO 45164 --- [edusubmit-config-server] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-01T05:05:42.029+05:30  INFO 45164 --- [edusubmit-config-server] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7886 ms
+2026-04-01T05:05:45.794+05:30  INFO 45164 --- [edusubmit-config-server] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-04-01T05:05:46.176+05:30  INFO 45164 --- [edusubmit-config-server] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2026-04-01T05:05:46.234+05:30  INFO 45164 --- [edusubmit-config-server] [           main] c.e.c.EdusubmitConfigServerApplication   : Started EdusubmitConfigServerApplication in 15.13 seconds (process running for 18.895)
+2026-04-01T05:05:49.596+05:30  INFO 45164 --- [edusubmit-config-server] [nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-01T05:05:49.597+05:30  INFO 45164 --- [edusubmit-config-server] [nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-01T05:05:49.608+05:30  INFO 45164 --- [edusubmit-config-server] [nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
